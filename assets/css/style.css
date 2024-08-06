@@ -786,7 +786,29 @@ Rotate Transition in foote Soical Icon
   background: #2b2a2A;
 }
 
+.rounded-social-buttons .social-button.whatsapp {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
 
+.rounded-social-buttons .social-button.whatsapp:hover,
+.rounded-social-buttons .social-button.whatsapp:focus {
+  color: #000000;
+  background: #2b2a2A;
+}
+
+.rounded-social-buttons .social-button.telegram {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.telegram:hover,
+.rounded-social-buttons .social-button.telegram:focus {
+  color: #000000;
+  background: #2b2a2A;
+}
 /************
 Contact Form In Footer
 *************/

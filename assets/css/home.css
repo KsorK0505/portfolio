@@ -322,6 +322,32 @@ html[light-mode="dark"] .github-icon{
   animation: moveArm 1s infinite alternate;
 }
 
+html[light-mode="dark"] .whatsapp-icon{
+  fill: lightgreen;
+}
+
+.whatsapp-icon {
+  width: 64px;
+  fill: green;
+  margin-left: 4px;
+}
+
+.whatsapp-icon:hover{
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
+
+html[light-mode="dark"] .telegram-icon{
+  fill: lightskyblue;
+}
+
+.telegram-icon {
+  fill: green;
+  margin-left: 4px;
+}
+
+.telegram-icon:hover{
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
 @keyframes moveArm {
   0% { transform: rotate(10deg); }
   100% { transform: rotate(-10deg); }
