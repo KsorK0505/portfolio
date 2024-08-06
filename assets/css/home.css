@@ -342,12 +342,73 @@ html[light-mode="dark"] .telegram-icon{
 
 .telegram-icon {
   fill: green;
-  margin-left: 4px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .telegram-icon:hover{
+}
+
+html[light-mode="dark"] .telegram-background-icon{
+  stop-color:#141516;
+}
+
+.telegram-background-icon{
+  fill:#2aabee;
+}
+
+.telegram-background-icon:hover{
+  stop-color: #2aabee;
+}
+
+html[light-mode="dark"] .discord-icon{
+  fill: lightskyblue;
+}
+
+.discord-icon {
+  fill: green;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+html[light-mode="dark"] .discord-icon path{
+  fill: skyblue;
+}
+
+.discord-icon path{
+  fill: yellowgreen ;
+}
+
+.discord-icon:hover{
+}
+
+html[light-mode="dark"] .discord-background-icon{
+  fill:white;
+}
+
+.discord-background-icon{
+  fill:black;
+}
+
+.discord-background-icon:hover{
+  stop-color: #2aabee;
+}
+
+html[light-mode="dark"] .skype-icon{
+  fill: aqua;
+}
+
+.skype-icon {
+  width: 64px;
+  fill: deepskyblue;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.skype-icon:hover{
   box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
 }
+
 @keyframes moveArm {
   0% { transform: rotate(10deg); }
   100% { transform: rotate(-10deg); }

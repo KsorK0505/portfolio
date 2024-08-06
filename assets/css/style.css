@@ -734,7 +734,6 @@ Rotate Transition in foote Soical Icon
   width: 35px;
 }
 
-
 /*
 ----------------------------------------
  HOVER EFFECT ON SOCIAL MEDIA ICONS
@@ -807,7 +806,31 @@ Rotate Transition in foote Soical Icon
 .rounded-social-buttons .social-button.telegram:hover,
 .rounded-social-buttons .social-button.telegram:focus {
   color: #000000;
+  background: #2aabee;
+}
+
+.rounded-social-buttons .social-button.discord {
+  fill: #ffff;
   background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.discord:hover,
+.rounded-social-buttons .social-button.discord:focus {
+  color: #000000;
+  background: #2aabee;
+}
+
+.rounded-social-buttons .social-button.skype {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.skype:hover,
+.rounded-social-buttons .social-button.skype:focus {
+  color: #000000;
+  background: #2aabee;
 }
 /************
 Contact Form In Footer
