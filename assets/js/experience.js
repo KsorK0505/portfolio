@@ -5,25 +5,39 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Lead Blockchain Developer",
+    cardImage: "assets/images/experience-page/omniverse.jpg",
+    place: "Omniverse",
+    time: "(Sep, 2021 - Jun, 2024)",
+    desp: "<li>Developed and deployed 15+ Ethereum smart contracts (Breeding, Staking, DAO), improving application performance by 30% and enhancing user experience across multiple projects.</li> <li>Created responsive and user-friendly front-end interfaces for web3 applications, leading to a 20% increase in user engagement and a 25% decrease in bounce rate.</li> <li>Built efficient Ethereum bot leveraging Geth, Golang, and Go SDK, resulting in a 25% reduction in resource usage and a 20% improvement in transaction throughput.</li> <li>Resulting in a 35% increase in user engagement, collaborated with three developers to launch an innovative NFT Marketplace.</li> <li>Developed the comprehensive data structure for the project, encompassing Blueprint, Product, ERC20, ERC721, and ERC1155 tokens to optimize the entire project workflow.</li> <li>Defined the tokenomics model and established a robust economic system for the raffle game, including at least 3 token utility (Governance token, NFT, ERC20) features and a staking mechanism.</li> <li>Engineered a secure Airdrop smart contract with robust security measures, leveraging the power of Merkle tree technology to ensure the utmost protection and integrity.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Solution Architect & Blockchain Advisor",
+    cardImage: "assets/images/experience-page/rug.jpg",
+    place: "RugRevenant",
+    time: "(Jun 2020 - Jul, 2021)",
+    desp: "<li>Lead 5 developers in implementing decentralized exchanges (DEX) using Hyperledger Fabric, resulting in a 300% increase in daily trading volume and a 20% improvement in user satisfaction.</li><li>Optimized gas usage for smart contracts and developed Hyperledger Composer-based chain code, reducing average transaction cost by 35% and enhancing user experience.</li><li>Integrated Layer 2 scaling solutions and Hyperledger Quilt for improved interoperability, resulting in a 200% increase in transaction throughput and a 40% reduction in latency.</li><li>Leveraged progressive web application (PWA) techniques and implemented Hyperledger Explorer for seamless blockchain data visualization, increasing user retention by 20%.</li><li>Deployed Wallet-Connect using the Rainbow-kit to furnish a secure and user-friendly wallet connection, inclusive of Wallet-Connect v2, ensuring a seamless and protected user experience.</li><li>Conducted rigorous testing of the developed smart contracts using Hardhat and executed on-chain tests on the Sepolia testnet, adeptly resolving issues to guarantee the security and efficiency of the smart contracts.</li><li>Pioneered cross-platform mobile apps and admin panels for iOS/Android, utilizing React/React Native (Expo),Node.js, and extensive AWS services like Cognito, AppSync, Lambda, API Gateway, DynamoDB, CloudWatch,Amplify, S3 etc.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Blockchain Developer",
+    cardImage: "assets/images/experience-page/metaverse.jpg",
+    place: "MetaverseME Ltd",
+    time: "(Jul, 2018 - Apr, 2020)",
+    desp: "<li>Integrated Ethereum and Golang to create robust using Geth and Go SDK, enhancing smart contract interaction Speed by 40% and streamlining blockchain event monitoring.</li><li>We designed a responsive front-end interface, integrating real-time blockchain data and streamlining user interactions for a 50% improvement in user experience.</li><li>Created the Blueprint smart contract to enable the creation, minting, and burning of assets based on the ERC1155 token protocol.</li><li>Developed robust test scripts using Hardhat to fortify the security and efficiency of your contract, while dramatically accelerating the pace of development.</li><li>Executed the deployment of the smart contract on the testnet, followed by rigorous live testing utilizing the developed MVP UI and Web3 integration.</li><li>Successfully migrated our DeFi platform to Hyperledger, resulting in a 50% reduction in transaction fees and a 25% increase in platform user retention.</li>",
+  },
+  {
+    title: "Senior Full Stack Engineer",
+    cardImage: "assets/images/experience-page/blitz-remote.jpg",
+    place: "Blitz",
+    time: "(Mar, 2015 - May, 2018)",
+    desp: "<li>Boosted company efficiency by 30% by developing admin, client, and payment apps with React and AWS serverless technologies(Python and Node).</li><li>Utilized the MyEtherWallet platform and Remix for the deployment of the smart contracts, adhering to industry best practices and ensuring a seamless process.</li><li>Managed public and private cloud infrastructures using AWS, including EC2 and Auto-Scaling in launching EC2 instances.</li><li>Utilizing TailwindCSS, designed a user-friendly and visually appealing interface that sets a new standard for accessibility and clarity across all project pages.</li><li>Utilizing TailwindCSS, designed a user-friendly and visually appealing interface that sets a new standard for accessibility and clarity across all project pages.</li>",
+  },
+  {
+    title: "Frontent Engineer",
+    cardImage: "assets/images/experience-page/blitz-intern.jpg",
+    place: "Blitz",
+    time: "(Oct, 2014 - Mar, 2015)",
+    desp: "<li>Achieved a 40% increase in employee training efficiency by designing and integrating frontend for training apps with a machine learning backend.</li><li>Streamlined the user search experience, achieving a 20% faster response time by utilizing Redux saga for state management and react.js for real-time search.</li><li>Enhanced application usability and access through the integration of Google API for voice recognition, supporting over 10,000 daily active users.</li>",
   },
 ];
 
@@ -62,28 +76,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+    title: "Digital Golf Legend",
+    cardImage: "assets/images/experience-page/source1.jpg",
+    description:  
+      "Digital Humans (DIGITAL LEGENDS) of the greatest golfers from the past.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "The path to Web3",
+    cardImage: "assets/images/experience-page/source2.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Discover your own way to senior Web3.js developer",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "3 Small Onchain",
+    cardImage: "assets/images/experience-page/source3.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Building projects and efficiency design",
   },
 ];
 
