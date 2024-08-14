@@ -77,19 +77,19 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: "Digital Golf Legend",
-    cardImage: "assets/images/experience-page/source1.jpg",
+    cardImage: "assets/images/experience-page/source1.JPG",
     description:  
       "Digital Humans (DIGITAL LEGENDS) of the greatest golfers from the past.",
   },
   {
     title: "The path to Web3",
-    cardImage: "assets/images/experience-page/source2.jpg",
+    cardImage: "assets/images/experience-page/source2.JPG",
     description:
       "Discover your own way to senior Web3.js developer",
   },
   {
     title: "4 Small Onchain",
-    cardImage: "assets/images/experience-page/source3.jpg",
+    cardImage: "assets/images/experience-page/source3.JPG",
     description:
       "Building projects and efficiency design",
   },
