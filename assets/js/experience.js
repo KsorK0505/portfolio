@@ -6,21 +6,21 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Lead Blockchain Developer",
-    cardImage: "assets/images/experience-page/omniverse.jpg",
+    cardImage: "assets/images/experience-page/omniverse.JPG",
     place: "Omniverse",
     time: "(Sep, 2021 - Jun, 2024)",
     desp: "<li>Developed and deployed 15+ Ethereum smart contracts (Breeding, Staking, DAO), improving application performance by 30% and enhancing user experience across multiple projects.</li> <li>Created responsive and user-friendly front-end interfaces for web3 applications, leading to a 20% increase in user engagement and a 25% decrease in bounce rate.</li> <li>Built efficient Ethereum bot leveraging Geth, Golang, and Go SDK, resulting in a 25% reduction in resource usage and a 20% improvement in transaction throughput.</li> <li>Resulting in a 35% increase in user engagement, collaborated with three developers to launch an innovative NFT Marketplace.</li> <li>Developed the comprehensive data structure for the project, encompassing Blueprint, Product, ERC20, ERC721, and ERC1155 tokens to optimize the entire project workflow.</li> <li>Defined the tokenomics model and established a robust economic system for the raffle game, including at least 3 token utility (Governance token, NFT, ERC20) features and a staking mechanism.</li> <li>Engineered a secure Airdrop smart contract with robust security measures, leveraging the power of Merkle tree technology to ensure the utmost protection and integrity.</li>",
   },
   {
     title: "Solution Architect & Blockchain Advisor",
-    cardImage: "assets/images/experience-page/rug.jpg",
+    cardImage: "assets/images/experience-page/rug.JPG",
     place: "RugRevenant",
     time: "(Jun 2020 - Jul, 2021)",
     desp: "<li>Lead 5 developers in implementing decentralized exchanges (DEX) using Hyperledger Fabric, resulting in a 300% increase in daily trading volume and a 20% improvement in user satisfaction.</li><li>Optimized gas usage for smart contracts and developed Hyperledger Composer-based chain code, reducing average transaction cost by 35% and enhancing user experience.</li><li>Integrated Layer 2 scaling solutions and Hyperledger Quilt for improved interoperability, resulting in a 200% increase in transaction throughput and a 40% reduction in latency.</li><li>Leveraged progressive web application (PWA) techniques and implemented Hyperledger Explorer for seamless blockchain data visualization, increasing user retention by 20%.</li><li>Deployed Wallet-Connect using the Rainbow-kit to furnish a secure and user-friendly wallet connection, inclusive of Wallet-Connect v2, ensuring a seamless and protected user experience.</li><li>Conducted rigorous testing of the developed smart contracts using Hardhat and executed on-chain tests on the Sepolia testnet, adeptly resolving issues to guarantee the security and efficiency of the smart contracts.</li><li>Pioneered cross-platform mobile apps and admin panels for iOS/Android, utilizing React/React Native (Expo),Node.js, and extensive AWS services like Cognito, AppSync, Lambda, API Gateway, DynamoDB, CloudWatch,Amplify, S3 etc.</li>",
   },
   {
     title: "Blockchain Developer",
-    cardImage: "assets/images/experience-page/metaverse.jpg",
+    cardImage: "assets/images/experience-page/metaverse.JPG",
     place: "MetaverseME Ltd",
     time: "(Jul, 2018 - Apr, 2020)",
     desp: "<li>Integrated Ethereum and Golang to create robust using Geth and Go SDK, enhancing smart contract interaction Speed by 40% and streamlining blockchain event monitoring.</li><li>We designed a responsive front-end interface, integrating real-time blockchain data and streamlining user interactions for a 50% improvement in user experience.</li><li>Created the Blueprint smart contract to enable the creation, minting, and burning of assets based on the ERC1155 token protocol.</li><li>Developed robust test scripts using Hardhat to fortify the security and efficiency of your contract, while dramatically accelerating the pace of development.</li><li>Executed the deployment of the smart contract on the testnet, followed by rigorous live testing utilizing the developed MVP UI and Web3 integration.</li><li>Successfully migrated our DeFi platform to Hyperledger, resulting in a 50% reduction in transaction fees and a 25% increase in platform user retention.</li>",
@@ -34,7 +34,7 @@ const exp = [
   },
   {
     title: "Frontent Engineer",
-    cardImage: "assets/images/experience-page/blitz-intern.jpg",
+    cardImage: "assets/images/experience-page/blitz-intern.JPG",
     place: "Blitz",
     time: "(Oct, 2014 - Mar, 2015)",
     desp: "<li>Achieved a 40% increase in employee training efficiency by designing and integrating frontend for training apps with a machine learning backend.</li><li>Streamlined the user search experience, achieving a 20% faster response time by utilizing Redux saga for state management and react.js for real-time search.</li><li>Enhanced application usability and access through the integration of Google API for voice recognition, supporting over 10,000 daily active users.</li>",
