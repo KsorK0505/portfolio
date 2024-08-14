@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "",
-    cardImage: "assets/images/project-page/project1.jpg",
+    cardImage: "assets/images/project-page/project1.JPG",
     description: "",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
